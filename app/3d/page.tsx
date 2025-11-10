@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Banner from "../components/Banner";
 import PromoCard from "../components/PromoCard";
 import BookingForm from "../components/BookingForm";
+import Footer from "../components/Footer";
 import StructuredData from "../components/StructuredData";
 
 export const metadata: Metadata = {
@@ -130,6 +131,8 @@ export default function Impresion3DPage() {
             </article>
           </div>
         </section>
+
+        <Footer />
       </div>
     </>
   );
